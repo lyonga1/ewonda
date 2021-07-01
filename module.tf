@@ -1,8 +1,8 @@
-module "tf_backend1" {
+module "tf_backend" {
   source = "https://github.com/lyonga1/ewonda.git"
 
   bucket_prefix = "dnx"
-  bucket_region = "ap-southeast-2"
+  bucket_region = "us-east-1"
 
   bucket_sse_algorithm = "AES256"
 
